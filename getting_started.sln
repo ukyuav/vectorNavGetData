@@ -2,16 +2,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2018
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "getting_started", "getting_started.vcxproj", "{E9F7C3A5-66FB-3746-B7A4-1266CCDBB08D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorNavGetData", "getting_started.vcxproj", "{E9F7C3A5-66FB-3746-B7A4-1266CCDBB08D}"
 	ProjectSection(ProjectDependencies) = postProject
 		{72FA8039-B6D8-37DF-8FC0-CDE71377C512} = {72FA8039-B6D8-37DF-8FC0-CDE71377C512}
 	EndProjectSection
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvncxx", "..\..\..\..\projects\vs2013\libvncxx.vcxproj", "{72FA8039-B6D8-37DF-8FC0-CDE71377C512}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvncxx", "..\..\..\..\..\..\vnproglib-1-1-4\vnproglib-1.1.4.0\cpp\projects\vs2013\libvncxx.vcxproj", "{72FA8039-B6D8-37DF-8FC0-CDE71377C512}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Extract", "Extract.vcxproj", "{1B5709C6-B829-4DB0-9DE5-BB9ECF47EE80}"
-EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VectorNavLogger", "..\VectorNavLogger\VectorNavLogger.vcxproj", "{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,22 +63,6 @@ Global
 		{1B5709C6-B829-4DB0-9DE5-BB9ECF47EE80}.RelWithDebInfo|Win32.Build.0 = Release|Win32
 		{1B5709C6-B829-4DB0-9DE5-BB9ECF47EE80}.RelWithDebInfo|x64.ActiveCfg = Release|x64
 		{1B5709C6-B829-4DB0-9DE5-BB9ECF47EE80}.RelWithDebInfo|x64.Build.0 = Release|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Debug|Win32.ActiveCfg = Debug|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Debug|Win32.Build.0 = Debug|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Debug|x64.ActiveCfg = Debug|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Debug|x64.Build.0 = Debug|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.MinSizeRel|Win32.ActiveCfg = Release|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.MinSizeRel|Win32.Build.0 = Release|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.MinSizeRel|x64.ActiveCfg = Release|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.MinSizeRel|x64.Build.0 = Release|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Release|Win32.ActiveCfg = Release|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Release|Win32.Build.0 = Release|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Release|x64.ActiveCfg = Release|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.Release|x64.Build.0 = Release|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.RelWithDebInfo|Win32.Build.0 = Release|Win32
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.RelWithDebInfo|x64.ActiveCfg = Release|x64
-		{46E6F15B-70B3-4B61-9718-AE6928B1AB7D}.RelWithDebInfo|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
